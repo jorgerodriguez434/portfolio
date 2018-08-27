@@ -19,7 +19,7 @@ export default class Bio extends React.Component {
           </div>
           <div>
             <p className="font-40 add-bottom-padding">
-              I have experince with HTML, CSS, JAVASCRIPT, JQUERY, NODE JS, MONGOOSE, AND
+              I have experience with HTML, CSS, JAVASCRIPT, JQUERY, NODE JS, MONGOOSE, AND
               REACT JS
             </p>
           </div>
