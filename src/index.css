@@ -46,10 +46,6 @@ button {
 .bio-intro{
   width: 100%;
   margin: auto;
-
-}
-.main-bio{
-  width: 100%;
 }
 .add-bottom-padding{
   padding-bottom: 70px; 
@@ -87,6 +83,7 @@ button {
   margin-top: -10px;
 }
 
+
 @media only screen and (min-width: 740px) {
   img{
     width: 600px;
@@ -95,9 +92,6 @@ button {
   .bio-div{
     width: 500px;
     margin: auto;
-  }
-  .main-bio{
-      width: 500px;
   }
   .main-container {
     background-color: white;
@@ -109,7 +103,11 @@ button {
   }
   button{
 		width: 200px;
-	}
+  }
+  .project-description{
+    width: 500px;
+    margin: auto;
+  }
 }
 
 /* */
