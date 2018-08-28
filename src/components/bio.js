@@ -13,7 +13,7 @@ export default class Bio extends React.Component {
             <p className="font-40"> Here's a little bit about me: </p>
             <p className="font-40">
               {" "}
-              I am football fanatic, movie watcher, chef, adventurer, and a full
+              I am football(soccer) fanatic, movie watcher, chef, adventurer, and a full
               stack web developer{" "}
             </p>
           </div>
