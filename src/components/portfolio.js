@@ -35,39 +35,39 @@ export default class Portfolio extends React.Component {
           src="https://user-images.githubusercontent.com/18128525/43462848-cb1ac958-949c-11e8-9eb5-23747c992f1a.png"
           alt="chef-app"
         />
-      <div className="project-description">
+      <section className="project-description">
         <p> 
           This is an app that is for anyone that loves to cook! You can create your own recipes,
           and modify them as you like! The app will place your dish in one or more of the following
           categories: gluten-free, vegan, vegeterian, dairy-free, and meats!
         </p>
-      </div>
+      </section>
         <button  onClick={this.chefApp}> Live app</button>
         <button className="margin-bottom" onClick={this.chefAppCode}> Github</button>
         <img
           src="https://user-images.githubusercontent.com/18128525/39194207-cc4194ac-47a2-11e8-9a32-06630e403276.png"
           alt=""
         />
-        <div className="project-description">
+        <section className="project-description">
          <p> 
           This is an app that let's you add youtube videos using Youtube's API! I wanted to create an
           app that allowed me to save songs that I love! You can add any song, and as long as there is 
           song video for it on youtube, it will save it on the app!
         </p>
-        </div>
+        </section>
         <button onClick={this.songOrganizer}> Live app</button>
         <button className="margin-bottom" onClick={this.songOrganizerCode}> Github</button>
         <img
           src="https://user-images.githubusercontent.com/18128525/36384655-a3b192dc-1555-11e8-818a-e877beb22bb6.png"
           alt=""
         />
-        <div className="project-description">
+        <section className="project-description">
           <p> 
           This was my first app! I used the movie database API, and I created this movie app because I
           like to watch movies, and this app let's me know whats popular! It has movies by action, comedy, crime, 
           drama, and family!
         </p>
-        </div>
+        </section>
         <button onClick={this.movieApp}> Live app</button>
         <button className="margin-bottom" onClick={this.movieAppCode}> Github </button>
       </div>
