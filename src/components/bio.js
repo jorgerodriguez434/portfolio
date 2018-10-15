@@ -24,10 +24,17 @@ export default class Bio extends React.Component {
       
             </p>
 
-             <p className="add-bottom-padding" aria-live="polite">
+             <p  aria-live="polite">
               I was born in Chicago, and have been in love with this city ever since.
-              I like to travel and hope one day to see the world. I love to create new things. Helping others is one of my own
-              motivations to succeed in life.
+              I like to travel and hope one day to see the world.
+            </p>
+
+            <p className="add-bottom-padding"> 
+
+               One of the greatest perks of web development is having the 
+               ablitiy to bring ideas to life, and this is why I fell in love
+               with writing code. Web development has enriched my life, and I hope
+               use my skillset to enhance the lives of others.
             </p>
           </section>
       
