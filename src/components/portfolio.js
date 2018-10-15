@@ -28,11 +28,13 @@ export default class Portfolio extends React.Component {
    
   render() {
     return (
-      <div id="portfolio">
+  <div>
+    <h2 className=""> Portfolio </h2>
+      <div id="portfolio" className="portfolio">
        
-        <h2 className="less-margin"> Portfolio </h2>
+    <div className="project">   
         <img
-          src="https://user-images.githubusercontent.com/18128525/43462848-cb1ac958-949c-11e8-9eb5-23747c992f1a.png"
+          src="https://itp.live/sites/default/files/styles/full_img/public/images/2017/11/28/Editing-Images-Without-Photoshop.jpg"
           alt="chef-app"
         />
       <section className="project-description">
@@ -44,8 +46,13 @@ export default class Portfolio extends React.Component {
       </section>
         <button  onClick={this.chefApp}> Live app</button>
         <button className="margin-bottom" onClick={this.chefAppCode}> Github</button>
+        </div>
+
+
+
+        <div className="project">  
         <img
-          src="https://user-images.githubusercontent.com/18128525/39194207-cc4194ac-47a2-11e8-9a32-06630e403276.png"
+          src="https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&h=350"
           alt=""
         />
         <section className="project-description">
@@ -57,8 +64,13 @@ export default class Portfolio extends React.Component {
         </section>
         <button onClick={this.songOrganizer}> Live app</button>
         <button className="margin-bottom" onClick={this.songOrganizerCode}> Github</button>
+        </div>
+
+
+
+         <div className="project">  
         <img
-          src="https://user-images.githubusercontent.com/18128525/36384655-a3b192dc-1555-11e8-818a-e877beb22bb6.png"
+          src="https://image.freepik.com/free-photo/successful-computer-gadget-digital-close_1220-888.jpg"
           alt=""
         />
         <section className="project-description">
@@ -70,7 +82,12 @@ export default class Portfolio extends React.Component {
         </section>
         <button onClick={this.movieApp}> Live app</button>
         <button className="margin-bottom" onClick={this.movieAppCode}> Github </button>
-      </div>
+        </div>
+
+
+
+    </div>
+</div>
     );
   }
 }

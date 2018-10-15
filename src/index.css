@@ -6,7 +6,7 @@ body {
 	background-color: #f2f2f2;
   margin: auto;
   text-align: center;
-  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhE0eOdypW7R_D5hEC7PSWISCS1A_CEuj-4SotIERYIVbBemWL'); */
+  background-image: url('');
   /* color: #C8C8C8; */
   /* background-repeat: no-repeat;
   background-size: cover; */
@@ -131,16 +131,20 @@ button {
   margin-bottom: 20px;
   border: 2px solid #511515;
 }
+.moe-margin-top{
+  
+}
+
 
 
 @media only screen and (min-width: 740px) {
   img{
-    width: 600px;
+    height: 300px;
   
   }
-  .image{
+  /* .image{
     width: 600px;
-  }
+  } */
   header {
     height: 785px;
 		padding-top: 200px;
@@ -157,8 +161,9 @@ button {
 		width: 200px;
   }
   .project-description{
-    width: 500px;
-    margin: auto;
+    /* width: 500px; */
+    /* margin: auto; */
+    height: 300px;
   }
   h1 {
 		font-size: 100px;
@@ -171,6 +176,15 @@ button {
     display: flex;
     margin-bottom: 20px;
   }
+  .portfolio{
+    display: flex;
+    /* border: 2px solid blue; */
+  }
+  .project{
+      width: 33.33%;
+      /* border: 2px solid red; */
+      padding: 20px 20px 20px 20px;
+  } 
 }
 
 /* */
