@@ -4,8 +4,9 @@ export default class Bio extends React.Component {
   render() {
     return (
       <div id="bio">
+       <h2> About Me</h2>
         <img
-          src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/13659174_1407450855948378_4680258023476578118_n.jpg?_nc_cat=0&oh=cdd821253cc946aac681b78a05ea8625&oe=5BEDE62C"
+          src="https://previews.dropbox.com/p/thumb/AANPvCwSVc1RxsVqPIL_RsBO_VKIFMg6LcPOTIt-uTBrKAqJANJhU1Zr4PJCQtWguuo09I71QNgnfNwds1grxWmJc3P6E8gN_nHY5XWZ9viqMu9vfgCfWrMkiGvhWcKXH-H6fAJjbMEKDRWKTFmBw5ydwoaYvsOYQBO3Gaoqy0X4lquzn1GKRe-rJthp5BMHj6b8W5pKL3fIekqe57d4Z-17w8XMK5Z2G3X4sxg4cj5-Ug/p.jpeg?size=2048x1536&size_mode=3"
           alt="skydiving"
         />
         <section className="bio-div">
