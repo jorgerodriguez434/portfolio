@@ -29,8 +29,8 @@ export default class Portfolio extends React.Component {
   render() {
     return (
       <div id="portfolio">
-        <p> This is my </p>
-        <p className="font-40 less-margin"> Portfolio </p>
+       
+        <h2 className="less-margin"> Portfolio </h2>
         <img
           src="https://user-images.githubusercontent.com/18128525/43462848-cb1ac958-949c-11e8-9eb5-23747c992f1a.png"
           alt="chef-app"

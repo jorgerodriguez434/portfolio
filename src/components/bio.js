@@ -10,15 +10,15 @@ export default class Bio extends React.Component {
         />
         <section className="bio-div">
           <div className="bio-intro">
-            <p className="font-40"> Here's a little bit about me: </p>
-            <p className="font-40" aria-live="polite">
+            <p className=""> Here's a little bit about me: </p>
+            <p className="" aria-live="polite">
               {" "}
               I am a football(soccer) fanatic, movie watcher, chef, adventurer, and a full
               stack web developer{" "}
             </p>
           </div>
           <div>
-            <p className="font-40 add-bottom-padding" aria-live="polite">
+            <p className="add-bottom-padding" aria-live="polite">
               I have experience with HTML, CSS, JAVASCRIPT, JQUERY, NODE JS, MONGOOSE, AND
               REACT JS
             </p>
