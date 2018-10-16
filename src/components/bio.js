@@ -7,7 +7,7 @@ export default class Bio extends React.Component {
    
       <div className="me"> 
         <img
-          src="https://previews.dropbox.com/p/thumb/AANPvCwSVc1RxsVqPIL_RsBO_VKIFMg6LcPOTIt-uTBrKAqJANJhU1Zr4PJCQtWguuo09I71QNgnfNwds1grxWmJc3P6E8gN_nHY5XWZ9viqMu9vfgCfWrMkiGvhWcKXH-H6fAJjbMEKDRWKTFmBw5ydwoaYvsOYQBO3Gaoqy0X4lquzn1GKRe-rJthp5BMHj6b8W5pKL3fIekqe57d4Z-17w8XMK5Z2G3X4sxg4cj5-Ug/p.jpeg?size=2048x1536&size_mode=3"
+          src="https://image.ibb.co/bRdoVf/jorge-2.jpg"
           alt="skydiving"
           className="circle"
         />
@@ -34,7 +34,7 @@ export default class Bio extends React.Component {
                One of the greatest perks of web development is having the 
                ablitiy to bring ideas to life, and this is why I fell in love
                with writing code. Web development has enriched my life, and I hope
-               use my skillset to enhance the lives of others.
+               to use my skillset to enhance the lives of others.
             </p>
           </section>
       
