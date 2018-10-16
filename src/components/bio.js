@@ -4,11 +4,12 @@ export default class Bio extends React.Component {
   render() {
     return (
       <section id="bio" className="about-me-container">
+      
    
       <div className="me"> 
         <img
           src="https://image.ibb.co/bRdoVf/jorge-2.jpg"
-          alt="skydiving"
+          alt="me"
           className="circle"
         />
       </div>
@@ -19,7 +20,7 @@ export default class Bio extends React.Component {
               {" "}
                 My name is Jorge! I am a Full Stack Developer!
                 My stack consists of MongoDB, Express, React, and
-                Node. I am highly adaptable, and always eager to learn new
+                Node.js. I am highly adaptable, and always eager to learn new
                 technologies!
       
             </p>
