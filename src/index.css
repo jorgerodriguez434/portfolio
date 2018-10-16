@@ -13,18 +13,6 @@ body {
   /* opacity: .9; */
 }
 header {
-	/* text-align: center;
-  background-image: url('https://templated.co/items/demos/transitive/images/banner.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-bottom: 60px;
-  margin-bottom: 20px;
-  /* padding-top: 300px; */
-  /* margin-top: 100px;
-  margin-left: -10px;
-  margin-right: -10px;
-  border: 2px solid black;  */
-
   text-align: center;
   margin-bottom: 10px;
   background-image: url('https://images.unsplash.com/photo-1487284122274-e864e9dec2bf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5edd950e986d5ed7b84a908bf6df269f&w=1000&q=80');
@@ -69,6 +57,9 @@ button {
  }
  button:hover {
   background-color: #f5d6d6; 
+}
+.add-padding{
+  padding: 20px 20px 20px 20px;
 }
  
 .font-40{
@@ -135,7 +126,14 @@ button {
 .me{
   margin: auto;
 }
-.image{
+.bio-banner{
+  height: 130px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('http://blog.jpegmini.com/wp-content/uploads/2016/10/Surface-desktop.jpg');
+}
+.portfolio-banner{
   height: 130px;
   width: 100%;
   background-repeat: no-repeat;
@@ -149,12 +147,16 @@ button {
   padding: 20px 20px 20px 20px;
 }
 
+
 @media only screen and (min-width: 740px) {
   img{
     height: 300px;
   
   }
-  .image{
+  .bio-banner{
+    height: 300px;
+  }
+  .portfolio-banner{
     height: 300px;
   }
   header {

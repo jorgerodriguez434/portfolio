@@ -30,8 +30,9 @@ export default class Portfolio extends React.Component {
     return (
   <div>
     <h2 className=""> Portfolio </h2>
+   
       <div id="portfolio" className="portfolio">
-       
+      
     <div className="project">   
         <img
           src="https://itp.live/sites/default/files/styles/full_img/public/images/2017/11/28/Editing-Images-Without-Photoshop.jpg"
