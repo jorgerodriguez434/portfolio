@@ -131,11 +131,9 @@ button {
   margin-bottom: 20px;
   border: 2px solid #511515;
 }
-.moe-margin-top{
-  
+.me{
+  margin: auto;
 }
-
-
 
 @media only screen and (min-width: 740px) {
   img{
@@ -169,8 +167,8 @@ button {
 		font-size: 100px;
   }
   .me{
-      width: 50%;
-     margin: auto;
+     width: 50%;
+     /* margin: auto; */
   }
   .about-me-container{
     display: flex;
