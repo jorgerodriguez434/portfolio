@@ -29,7 +29,7 @@ export default class Portfolio extends React.Component {
   render() {
     return (
   <div>
-    <h2 className=""> Portfolio </h2>
+    <h2 className=""> PROJECTS</h2>
    
       <div id="portfolio" className="portfolio">
       

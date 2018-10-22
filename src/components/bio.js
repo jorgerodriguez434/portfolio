@@ -15,18 +15,19 @@ export default class Bio extends React.Component {
       </div>
         <div className="bio-div">
           <section className="bio-intro">
-          <h2> About Me</h2>
+          <h2> ABOUT ME</h2>
             <p className="" aria-live="polite">
               {" "}
                 Hi! My name is Jorge! I am a Full Stack Developer!
                 My stack consists of MongoDB, Express, React, and
-                Node.js. I am highly adaptable, and always eager to learn new
+                Node.js. I am highly adaptable, and always eager to work with a team and learn new
                 technologies!
       
             </p>
 
              <p  aria-live="polite">
               I was born in Chicago, and have been in love with this city ever since.
+              One of my great pass times aside from programming is cooking! I love to cook and enjoy serving others!
               I like to travel and hope one day to see the world.
             </p>
 
