@@ -19,8 +19,12 @@ export default class Main extends React.Component {
        <div className="portfolio-banner"></div>
         <Portfolio />
       </div>
-      <div className="main-container">
+      <div className="main-container contact-info">
       <ContactInfo/>
+      </div>
+
+      <div className="copyright">
+      <p> &copy; 2018 Jorge Rodriguez </p>
       </div>
 
 

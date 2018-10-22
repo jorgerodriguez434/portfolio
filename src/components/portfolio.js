@@ -33,17 +33,20 @@ export default class Portfolio extends React.Component {
    
       <div id="portfolio" className="portfolio">
       
-    <div className="project">   
+    <div className="project">
+    <h3> Chef App</h3>   
         <img
-          src="https://itp.live/sites/default/files/styles/full_img/public/images/2017/11/28/Editing-Images-Without-Photoshop.jpg"
+          src="https://user-images.githubusercontent.com/18128525/43463105-7373d126-949d-11e8-8bc4-75d8cc3f0b32.png"
           alt="chef-app"
         />
       <section className="project-description">
+      
         <p> 
           This is an app that is for anyone that loves to cook! You can create your own recipes,
           and modify them as you like! The app will place your dish in one or more of the following
           categories: gluten-free, vegan, vegeterian, dairy-free, and meats!
         </p>
+        <p>Technology used: MongoDB, Express, React, and Node.js</p>
       </section>
         <button  onClick={this.chefApp}> Live app</button>
         <button className="margin-bottom" onClick={this.chefAppCode}> Github</button>
@@ -52,9 +55,11 @@ export default class Portfolio extends React.Component {
 
 
         <div className="project">  
+        <h3> Song Organizer</h3>   
         <img
-          src="https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&h=350"
-          alt=""
+          src="https://preview.ibb.co/mGxNMV/song.png"
+          alt="song-organizer"
+          className="future"
         />
         <section className="project-description">
          <p> 
@@ -62,6 +67,7 @@ export default class Portfolio extends React.Component {
           app that allowed me to save songs that I love! You can add any song, and as long as there is 
           song video for it on youtube, it will save it on the app!
         </p>
+        <p>Technology used: MongoDB, JQuery, Express, Node.js</p>
         </section>
         <button onClick={this.songOrganizer}> Live app</button>
         <button className="margin-bottom" onClick={this.songOrganizerCode}> Github</button>
@@ -70,9 +76,11 @@ export default class Portfolio extends React.Component {
 
 
          <div className="project">  
+         <h3> Movie Search</h3>   
         <img
-          src="https://image.freepik.com/free-photo/successful-computer-gadget-digital-close_1220-888.jpg"
-          alt=""
+        className="venom"
+          src="https://preview.ibb.co/bEq6Fq/venom.png"
+          alt="venom"
         />
         <section className="project-description">
           <p> 
@@ -80,6 +88,7 @@ export default class Portfolio extends React.Component {
           like to watch movies, and this app let's me know whats popular! It has movies by action, comedy, crime, 
           drama, and family!
         </p>
+        <p>Technology used: JavaScript, CSS, HTML, JQuery</p>
         </section>
         <button onClick={this.movieApp}> Live app</button>
         <button className="margin-bottom" onClick={this.movieAppCode}> Github </button>
