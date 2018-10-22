@@ -39,6 +39,8 @@ export default class Portfolio extends React.Component {
           src="https://user-images.githubusercontent.com/18128525/43463105-7373d126-949d-11e8-8bc4-75d8cc3f0b32.png"
           alt="chef-app"
         />
+
+        {/* <div className="box chef-image"> </div> */}
       <section className="project-description">
       
         <p> 
@@ -61,9 +63,10 @@ export default class Portfolio extends React.Component {
           alt="song-organizer"
           className="future"
         />
+        {/* <div className="box future-image"> </div> */}
         <section className="project-description">
          <p> 
-          This is an app that let's you add youtube videos using Youtube's API! I wanted to create an
+           I wanted to create an
           app that allowed me to save songs that I love! You can add any song, and as long as there is 
           song video for it on youtube, it will save it on the app!
         </p>
@@ -77,16 +80,19 @@ export default class Portfolio extends React.Component {
 
          <div className="project">  
          <h3> Movie Search</h3>   
+        <div className="project-image">
         <img
         className="venom"
           src="https://preview.ibb.co/bEq6Fq/venom.png"
           alt="venom"
         />
+      </div>
+         {/* <div className="box venom-image"> </div> */}
         <section className="project-description">
           <p> 
           This was my first app! I used the movie database API, and I created this movie app because I
-          like to watch movies, and this app let's me know whats popular! It has movies by action, comedy, crime, 
-          drama, and family!
+          like to watch movies, and this app let's me know whats popular. It has movies by action, comedy, crime, 
+          drama, and family.
         </p>
         <p>Technology used: JavaScript, CSS, HTML, JQuery</p>
         </section>
