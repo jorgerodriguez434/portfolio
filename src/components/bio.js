@@ -19,7 +19,7 @@ export default class Bio extends React.Component {
             <p className="" aria-live="polite">
               {" "}
                 Hi! My name is Jorge! I am a Full Stack Developer!
-                My stack consists of MongoDB, Express, React, and
+                My stack consists of MongoDB, Express, React+Redux, and
                 Node.js. I am highly adaptable, and always eager to work with a team and learn new
                 technologies!
       

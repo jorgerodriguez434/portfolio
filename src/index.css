@@ -265,11 +265,11 @@ button {
 
 @media only screen and (min-width: 1380px) {
   .venom{
-    padding: 0px 70px 0px 70px;
+    padding: 0px 50px 0px 50px;
     /* background-color: black; */
   }
   .future{
-    padding: 0px 70px 0px 70px;
+    padding: 0px 50px 0px 50px;
     /* background-color: black; */
   }
 }

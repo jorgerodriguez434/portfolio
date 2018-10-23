@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class Portfolio extends React.Component {
+export default class Projects extends React.Component {
 
     chefApp(){
         window.location.assign("https://chef-app-client.herokuapp.com/");
@@ -31,7 +31,7 @@ export default class Portfolio extends React.Component {
   <div>
     <h2 className=""> PROJECTS</h2>
    
-      <div id="portfolio" className="portfolio">
+      <div id="projects" className="portfolio">
       
     <div className="project">
     <h3> Chef App</h3>   
@@ -48,7 +48,7 @@ export default class Portfolio extends React.Component {
           and modify them as you like! The app will place your dish in one or more of the following
           categories: gluten-free, vegan, vegeterian, dairy-free, and meats!
         </p>
-        <p>Technology used: MongoDB, Express, React, and Node.js</p>
+        <p>Technologies used: MongoDB, Express, React+Redux, and Node.js</p>
       </section>
         <button  onClick={this.chefApp}> Live app</button>
         <button className="margin-bottom" onClick={this.chefAppCode}> Github</button>
@@ -70,7 +70,7 @@ export default class Portfolio extends React.Component {
           app that allowed me to save songs that I love! You can add any song, and as long as there is 
           song video for it on youtube, it will save it on the app!
         </p>
-        <p>Technology used: MongoDB, JQuery, Express, Node.js</p>
+        <p>Technologies used: MongoDB, JQuery, Express, Node.js</p>
         </section>
         <button onClick={this.songOrganizer}> Live app</button>
         <button className="margin-bottom" onClick={this.songOrganizerCode}> Github</button>
@@ -94,7 +94,7 @@ export default class Portfolio extends React.Component {
           like to watch movies, and this app let's me know whats popular. It has movies by action, comedy, crime, 
           drama, and family.
         </p>
-        <p>Technology used: JavaScript, CSS, HTML, JQuery</p>
+        <p>Technologies used: JavaScript, CSS, HTML, JQuery</p>
         </section>
         <button onClick={this.movieApp}> Live app</button>
         <button className="margin-bottom" onClick={this.movieAppCode}> Github </button>
