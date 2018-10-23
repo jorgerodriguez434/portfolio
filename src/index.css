@@ -173,6 +173,7 @@ button {
 }
 ._icon:hover{
   background-color: #f5d6d6;
+  cursor: pointer;
 }
 .copyright{
   background-color: #511515;
